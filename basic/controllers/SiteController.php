@@ -122,4 +122,9 @@ class SiteController extends Controller
     {
         return $this->render('about');
     }
+
+    public function actionHello() {
+        $data = ["name" => "ManTou"];
+        return $this->render('hello', $data);
+    }
 }

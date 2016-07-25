@@ -1,0 +1,1 @@
+<h1>Welcome <?=$name;?> to WWW.345KU.COM!!!</h1>
